@@ -1,10 +1,10 @@
 h1::before {
-    content: "*";
+    content: "* ";
     color: blue;
 }
 
 h1::after {
-    content: "*";
+    content: " *";
     color: red;
 }
 
@@ -14,6 +14,7 @@ h1::after {
 
 [data-tooltip] {
     position: relative;
+    width: 100px;
 }
 
 [data-tooltip]:hover::after {
@@ -23,5 +24,5 @@ h1::after {
     left: 0;
     right: 0;
     margin-top: 5px;
-    background-color:blue;
+    background-color:aquamarine;
 }
